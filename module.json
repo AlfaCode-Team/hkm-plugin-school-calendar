@@ -1,0 +1,20 @@
+{
+    "name": "school-calendar",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.calendar",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "school.classes"
+    ],
+    "exposes": [
+        "Plugins\\SchoolCalendar\\API\\Contracts\\SchoolCalendarContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "The teacher journal and timetable, school events and countdowns.",
+    "config": []
+}

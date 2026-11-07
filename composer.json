@@ -1,0 +1,24 @@
+{
+    "name": "alfacode-team/hkm-plugin-school-calendar",
+    "description": "The teacher journal and timetable, school events and countdowns.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\SchoolCalendar\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plugins\\SchoolCalendar\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
